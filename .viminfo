@@ -14,16 +14,18 @@
 ~Msle0~/\<i\>
 
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1678060082,,"wq!"
 :q
-|2,0,1678054866,,"q"
+|2,0,1678060078,,"q"
+:wq
+|2,0,1678059225,,"wq"
+:q!
+|2,0,1678058247,,"q!"
 :set number
 |2,0,1678054834,,"set number"
-:wq!
-|2,0,1678054815,,"wq!"
 :s
 |2,0,1678054637,,"s"
-:q!
-|2,0,1678025456,,"q!"
 :'<,'>
 |2,0,1678024007,,"'<,'>"
 :wqQ
@@ -45,234 +47,279 @@
 
 # Registers:
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1678054792," "
+	)
+|3,1,36,0,1,0,1678059230,")"
 
 # File marks:
-'0  25  19  ~/ex06/ft_print_comb2.c
-|4,48,25,19,1678054866,"~/ex06/ft_print_comb2.c"
-'1  25  19  ~/ex06/ft_print_comb2.c
-|4,49,25,19,1678054815,"~/ex06/ft_print_comb2.c"
-'2  5  14  ~/ex06/ft_print_comb2.c
-|4,50,5,14,1678054746,"~/ex06/ft_print_comb2.c"
-'3  5  14  ~/ex06/ft_print_comb2.c
-|4,51,5,14,1678054746,"~/ex06/ft_print_comb2.c"
-'4  5  14  ~/ex06/ft_print_comb2.c
-|4,52,5,14,1678054746,"~/ex06/ft_print_comb2.c"
-'5  5  14  ~/ex06/ft_print_comb2.c
-|4,53,5,14,1678054746,"~/ex06/ft_print_comb2.c"
-'6  5  10  ~/ex06/ft_print_comb2.c
-|4,54,5,10,1678054645,"~/ex06/ft_print_comb2.c"
-'7  5  10  ~/ex06/ft_print_comb2.c
-|4,55,5,10,1678054645,"~/ex06/ft_print_comb2.c"
-'8  5  10  ~/ex06/ft_print_comb2.c
-|4,56,5,10,1678054645,"~/ex06/ft_print_comb2.c"
-'9  5  10  ~/ex06/ft_print_comb2.c
-|4,57,5,10,1678054645,"~/ex06/ft_print_comb2.c"
+'0  10  3  ~/ex07/test.c
+|4,48,10,3,1678060082,"~/ex07/test.c"
+'1  5  19  ~/ex07/main2.c
+|4,49,5,19,1678059347,"~/ex07/main2.c"
+'2  14  3  ~/ex07/test.c
+|4,50,14,3,1678059330,"~/ex07/test.c"
+'3  14  3  ~/ex07/test.c
+|4,51,14,3,1678059330,"~/ex07/test.c"
+'4  5  17  ~/ex07/main2.c
+|4,52,5,17,1678059267,"~/ex07/main2.c"
+'5  5  16  ~/ex07/main2.c
+|4,53,5,16,1678059240,"~/ex07/main2.c"
+'6  5  16  ~/ex07/main2.c
+|4,54,5,16,1678059240,"~/ex07/main2.c"
+'7  14  3  ~/ex07/test.c
+|4,55,14,3,1678059198,"~/ex07/test.c"
+'8  14  3  ~/ex07/test.c
+|4,56,14,3,1678059198,"~/ex07/test.c"
+'9  14  3  ~/ex07/test.c
+|4,57,14,3,1678058465,"~/ex07/test.c"
 
 # Jumplist (newest first):
--'  25  19  ~/ex06/ft_print_comb2.c
-|4,39,25,19,1678054866,"~/ex06/ft_print_comb2.c"
--'  25  19  ~/ex06/ft_print_comb2.c
-|4,39,25,19,1678054815,"~/ex06/ft_print_comb2.c"
--'  5  14  ~/ex06/ft_print_comb2.c
-|4,39,5,14,1678054773,"~/ex06/ft_print_comb2.c"
--'  5  14  ~/ex06/ft_print_comb2.c
-|4,39,5,14,1678054773,"~/ex06/ft_print_comb2.c"
--'  5  14  ~/ex06/ft_print_comb2.c
-|4,39,5,14,1678054746,"~/ex06/ft_print_comb2.c"
--'  5  10  ~/ex06/ft_print_comb2.c
-|4,39,5,10,1678054645,"~/ex06/ft_print_comb2.c"
--'  21  14  ~/ex06/ft_print_comb2.c
-|4,39,21,14,1678054631,"~/ex06/ft_print_comb2.c"
--'  21  14  ~/ex06/ft_print_comb2.c
-|4,39,21,14,1678054631,"~/ex06/ft_print_comb2.c"
--'  21  14  ~/ex06/ft_print_comb2.c
-|4,39,21,14,1678054631,"~/ex06/ft_print_comb2.c"
--'  21  14  ~/ex06/ft_print_comb2.c
-|4,39,21,14,1678054631,"~/ex06/ft_print_comb2.c"
--'  21  14  ~/ex06/ft_print_comb2.c
-|4,39,21,14,1678054613,"~/ex06/ft_print_comb2.c"
--'  21  19  ~/ex06/ft_print_comb2.c
-|4,39,21,19,1678054563,"~/ex06/ft_print_comb2.c"
--'  5  0  ~/ex06/ft_print_comb2.c
-|4,39,5,0,1678054548,"~/ex06/ft_print_comb2.c"
--'  5  0  ~/ex06/ft_print_comb2.c
-|4,39,5,0,1678054548,"~/ex06/ft_print_comb2.c"
--'  5  0  ~/ex06/ft_print_comb2.c
-|4,39,5,0,1678054543,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054256,"~/ex06/ft_print_comb2.c"
--'  3  27  ~/ex06/ft_print_comb2.c
-|4,39,3,27,1678054238,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  4  1  ~/ex06/ft_print_comb2.c
-|4,39,4,1,1678054205,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  7  0  ~/ex06/ft_print_comb2.c
-|4,39,7,0,1678054187,"~/ex06/ft_print_comb2.c"
--'  5  0  ~/ex06/ft_print_comb2.c
-|4,39,5,0,1678054062,"~/ex06/ft_print_comb2.c"
--'  5  0  ~/ex06/ft_print_comb2.c
-|4,39,5,0,1678054045,"~/ex06/ft_print_comb2.c"
--'  4  0  ~/ex06/ft_print_comb2.c
-|4,39,4,0,1678053971,"~/ex06/ft_print_comb2.c"
--'  4  0  ~/ex06/ft_print_comb2.c
-|4,39,4,0,1678053971,"~/ex06/ft_print_comb2.c"
--'  4  0  ~/ex06/ft_print_comb2.c
-|4,39,4,0,1678053959,"~/ex06/ft_print_comb2.c"
--'  5  0  ~/ex06/ft_print_comb2.c
-|4,39,5,0,1678053878,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  6  0  ~/ex06/ft_print_comb2.c
-|4,39,6,0,1678053826,"~/ex06/ft_print_comb2.c"
--'  23  2  ~/ex06/ft_print_comb2.c
-|4,39,23,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  26  2  ~/ex06/ft_print_comb2.c
-|4,39,26,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  22  2  ~/ex06/ft_print_comb2.c
-|4,39,22,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  28  2  ~/ex06/ft_print_comb2.c
-|4,39,28,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  29  2  ~/ex06/ft_print_comb2.c
-|4,39,29,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  27  2  ~/ex06/ft_print_comb2.c
-|4,39,27,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  30  2  ~/ex06/ft_print_comb2.c
-|4,39,30,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  31  2  ~/ex06/ft_print_comb2.c
-|4,39,31,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  23  2  ~/ex06/ft_print_comb2.c
-|4,39,23,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  26  2  ~/ex06/ft_print_comb2.c
-|4,39,26,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  22  2  ~/ex06/ft_print_comb2.c
-|4,39,22,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  28  2  ~/ex06/ft_print_comb2.c
-|4,39,28,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  29  2  ~/ex06/ft_print_comb2.c
-|4,39,29,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  27  2  ~/ex06/ft_print_comb2.c
-|4,39,27,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  30  2  ~/ex06/ft_print_comb2.c
-|4,39,30,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  31  2  ~/ex06/ft_print_comb2.c
-|4,39,31,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  23  2  ~/ex06/ft_print_comb2.c
-|4,39,23,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  25  2  ~/ex06/ft_print_comb2.c
-|4,39,25,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  22  2  ~/ex06/ft_print_comb2.c
-|4,39,22,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  27  2  ~/ex06/ft_print_comb2.c
-|4,39,27,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  28  2  ~/ex06/ft_print_comb2.c
-|4,39,28,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  26  2  ~/ex06/ft_print_comb2.c
-|4,39,26,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  29  2  ~/ex06/ft_print_comb2.c
-|4,39,29,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  30  2  ~/ex06/ft_print_comb2.c
-|4,39,30,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  23  2  ~/ex06/ft_print_comb2.c
-|4,39,23,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  25  2  ~/ex06/ft_print_comb2.c
-|4,39,25,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  22  2  ~/ex06/ft_print_comb2.c
-|4,39,22,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  27  2  ~/ex06/ft_print_comb2.c
-|4,39,27,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  28  2  ~/ex06/ft_print_comb2.c
-|4,39,28,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  26  2  ~/ex06/ft_print_comb2.c
-|4,39,26,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  29  2  ~/ex06/ft_print_comb2.c
-|4,39,29,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  30  2  ~/ex06/ft_print_comb2.c
-|4,39,30,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  23  2  ~/ex06/ft_print_comb2.c
-|4,39,23,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  25  2  ~/ex06/ft_print_comb2.c
-|4,39,25,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  22  2  ~/ex06/ft_print_comb2.c
-|4,39,22,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  27  2  ~/ex06/ft_print_comb2.c
-|4,39,27,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  28  2  ~/ex06/ft_print_comb2.c
-|4,39,28,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  26  2  ~/ex06/ft_print_comb2.c
-|4,39,26,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  29  2  ~/ex06/ft_print_comb2.c
-|4,39,29,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  30  2  ~/ex06/ft_print_comb2.c
-|4,39,30,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  23  2  ~/ex06/ft_print_comb2.c
-|4,39,23,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  25  2  ~/ex06/ft_print_comb2.c
-|4,39,25,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  22  2  ~/ex06/ft_print_comb2.c
-|4,39,22,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  27  2  ~/ex06/ft_print_comb2.c
-|4,39,27,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  28  2  ~/ex06/ft_print_comb2.c
-|4,39,28,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  26  2  ~/ex06/ft_print_comb2.c
-|4,39,26,2,1678053783,"~/ex06/ft_print_comb2.c"
--'  29  2  ~/ex06/ft_print_comb2.c
-|4,39,29,2,1678053783,"~/ex06/ft_print_comb2.c"
+-'  10  3  ~/ex07/test.c
+|4,39,10,3,1678060082,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059357,"~/ex07/test.c"
+-'  5  19  ~/ex07/main2.c
+|4,39,5,19,1678059347,"~/ex07/main2.c"
+-'  5  19  ~/ex07/main2.c
+|4,39,5,19,1678059347,"~/ex07/main2.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059330,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059330,"~/ex07/test.c"
+-'  5  17  ~/ex07/main2.c
+|4,39,5,17,1678059267,"~/ex07/main2.c"
+-'  5  17  ~/ex07/main2.c
+|4,39,5,17,1678059267,"~/ex07/main2.c"
+-'  5  17  ~/ex07/main2.c
+|4,39,5,17,1678059267,"~/ex07/main2.c"
+-'  5  17  ~/ex07/main2.c
+|4,39,5,17,1678059267,"~/ex07/main2.c"
+-'  5  16  ~/ex07/main2.c
+|4,39,5,16,1678059240,"~/ex07/main2.c"
+-'  5  16  ~/ex07/main2.c
+|4,39,5,16,1678059240,"~/ex07/main2.c"
+-'  5  16  ~/ex07/main2.c
+|4,39,5,16,1678059240,"~/ex07/main2.c"
+-'  5  16  ~/ex07/main2.c
+|4,39,5,16,1678059240,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678059205,"~/ex07/main2.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678059198,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  14  3  ~/ex07/test.c
+|4,39,14,3,1678058465,"~/ex07/test.c"
+-'  9  19  ~/ex07/test.c
+|4,39,9,19,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  10  14  ~/ex07/test.c
+|4,39,10,14,1678058422,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  16  0  ~/ex07/test.c
+|4,39,16,0,1678058368,"~/ex07/test.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  6  0  ~/ex07/main2.c
+|4,39,6,0,1678058331,"~/ex07/main2.c"
+-'  1  0  ~/ex07/main2.c
+|4,39,1,0,1678058268,"~/ex07/main2.c"
+-'  1  0  ~/ex07/main2.c
+|4,39,1,0,1678058268,"~/ex07/main2.c"
+-'  1  0  ~/ex07/main2.c
+|4,39,1,0,1678058268,"~/ex07/main2.c"
+-'  1  0  ~/ex07/main2.c
+|4,39,1,0,1678058268,"~/ex07/main2.c"
+-'  1  0  ~/ex07/main2.c
+|4,39,1,0,1678058268,"~/ex07/main2.c"
+-'  1  0  ~/ex07/main2.c
+|4,39,1,0,1678058268,"~/ex07/main2.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/ex07/test.c
+	*	1678060080	0
+	"	10	3
+	^	10	4
+	.	10	0
+	+	16	0
+	+	11	5
+	+	11	0
+	+	12	24
+	+	13	0
+	+	10	0
+
+> ~/ex07/main2.c
+	*	1678059344	0
+	"	5	19
+	^	5	20
+	.	5	19
+	+	6	0
+	+	5	19
+
+> ~/ex07/ft_putnbr.c
+	*	1678058244	0
+	"	23	0
+	^	23	0
+	.	20	0
+	+	30	0
+	+	5	1
+	+	29	0
+	+	28	0
+	+	27	0
+	+	26	11
+	+	5	1
+	+	22	0
+	+	20	0
+
+> ~/ex07/main.c
+	*	1678055716	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	5	10
+	+	1	15
+	+	6	0
+	+	5	14
 
 > ~/ex06/ft_print_comb2.c
 	*	1678054865	0
@@ -381,7 +428,7 @@
 	+	25	19
 
 > ~/ex06/solution1.c
-	*	1678053462	0
+	*	1678053473	0
 	"	7	9
 	^	7	11
 	.	24	0
