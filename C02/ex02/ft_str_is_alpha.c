@@ -7,7 +7,7 @@ int	ft_str_is_alpha(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (('a' < str[i] && str[i] < 'z') || ( 'A' < str[i] && str[i] < 'Z'))
+		if (('a' <= str[i] && str[i] <= 'z') || ( 'A' <= str[i] && str[i] <= 'Z' || str[i] == ' '))
 		{
 			str[i] = '1';	
 		}
@@ -22,7 +22,7 @@ int	ft_str_is_alpha(char *str)
 
 int	main()
 {
-	char	str[9] = "eh#j#$gvg";
+	char	str[10] = "eh# j#$gvg";
 
 	ft_str_is_alpha(str);
 	printf("%s", str);
