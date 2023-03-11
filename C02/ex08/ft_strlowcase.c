@@ -1,41 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
+/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/11 19:56:17 by crebelo-          #+#    #+#             */
-/*   Updated: 2023/03/11 20:40:43 by crebelo-         ###   ########.fr       */
+/*   Created: 2023/03/10 10:16:26 by crebelo-          #+#    #+#             */
+/*   Updated: 2023/03/11 20:00:36 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include<stdio.h>
-int	ft_str_is_numeric(char *str)
+
+char	*ft_strlowcase(char *str)
 {
-        int     i;
+	int     i;
 
         i = 0;
         while (str[i] != '\0')
         {
-                if (('0' <= str[i] && str[i] <= '9') || str[i] == ' ')
+                if ('A' <= str[i] && str[i] <= 'Z')
                 {
-                        i++;
+                        str[i] = str[i] + 32;
                 }
-                else
-                {
-			return 0;
-                }
-                i++;
-        }
-        return (1);
+		i++;
+	}
+        return str;
 }
 
 int     main()
 {
-        int	i;
-	char    str[12] = "eh# j#$923vg";
+	char    str[12] = "ABCDRGHSJDKF";
 
-        ft_str_is_numeric(str);
-        i = printf("%d", i);
+	ft_strlowcase(str);
+        printf("%s\n", str);
+	return 0;
 }

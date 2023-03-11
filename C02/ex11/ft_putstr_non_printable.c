@@ -1,29 +1,46 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_printable.c                              :+:      :+:    :+:   */
+/*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/11 19:58:59 by crebelo-          #+#    #+#             */
-/*   Updated: 2023/03/11 19:59:40 by crebelo-         ###   ########.fr       */
+/*   Created: 2023/03/10 11:36:02 by crebelo-          #+#    #+#             */
+/*   Updated: 2023/03/11 20:03:07 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include<unistd.h>
 
-int     ft_str_is_printable(char *str)
+char	*ft_strlowcase(char *str)
 {
-        int     i;
+	int     i;
 
         i = 0;
         while (str[i] != '\0')
         {
-                if ((' ' <= str[i] && str[i] <= '~') || str[i] == ' ')
+                if ('A' <= str[i] && str[i] <= 'Z')
                 {
-                        str[i] = '1';
+                        str[i] = str[i] + 32;
                 }
-                else
+		i++;
+	}
+        return str;
+}
+
+void	ft_putstr_non_printable(char *str);
+
+{
+	int     i;
+
+        i = 0;
+        while (str[i] != '\0')
+        {
+                if (' ' > str[i] && str[i] > '~')
+                {
+                        str[i] = str[i] ;
+                }
+		else
                 {
                         str[i] = '0';
                 }

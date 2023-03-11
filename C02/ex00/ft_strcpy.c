@@ -1,45 +1,45 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2i023/03/11 19:55:04 by crebelo-         #+#    #+#             */
-/*   Updated: 2023/03/11 20:35:42 by crebelo-         ###   ########.fr       */
+/*   Created: 2023/03/09 09:20:01 by crebelo-          #+#    #+#             */
+/*   Updated: 2023/03/11 20:11:46 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include<stdio.h>
 
-int	ft_str_is_alpha(char *str)
+char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (src[i] != '\0')
 	{
-		if (('a' <= str[i] && str[i] <= 'z'))
-		{
-			if (('A' <= str[i] && str[i] <= 'Z' || str[i] == ' '))
-			{
-				i++;
-			}
-			else
-			{
-				return (0);
-			}
-		}
+		dest[i] = src[i];
 		i++;
+		if (src[i] == '\0')
+		{
+			dest[i] = src[i];
+		}
 	}
-	return (1);
 }
 /*int	main()
 {
-	int	i;
-	char	str[10] = "eh# j#$gvg";
-
-	i = ft_str_is_alpha(str);
-	printf("%d", i);
+	int	f;
+	char	a[] = "ola";
+	char	b[4];
+	ft_strcpy(b, a);
+	
+	f = 0;
+	while(b[f] != '\0')
+        {
+                printf("%c", b[f]);
+                f++;
+        }
 	return 0;
+
 }*/

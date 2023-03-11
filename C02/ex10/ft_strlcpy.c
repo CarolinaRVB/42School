@@ -1,45 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2i023/03/11 19:55:04 by crebelo-         #+#    #+#             */
-/*   Updated: 2023/03/11 20:35:42 by crebelo-         ###   ########.fr       */
+/*   Created: 2023/03/10 11:18:38 by crebelo-          #+#    #+#             */
+/*   Updated: 2023/03/11 20:02:40 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include<stdio.h>
-
-int	ft_str_is_alpha(char *str)
+#include<stdio.h>
+unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (src[i] != '\0' && i < size - 1)
 	{
-		if (('a' <= str[i] && str[i] <= 'z'))
-		{
-			if (('A' <= str[i] && str[i] <= 'Z' || str[i] == ' '))
-			{
-				i++;
-			}
-			else
-			{
-				return (0);
-			}
-		}
+		dest[i] = src[i];
 		i++;
 	}
-	return (1);
+	dest[size - 1] = '\0';
+	return *dest;
 }
-/*int	main()
-{
-	int	i;
-	char	str[10] = "eh# j#$gvg";
 
-	i = ft_str_is_alpha(str);
-	printf("%d", i);
+int	main()
+{
+	char	a[] = "ololaolaa";
+	char	b[4];
+	int	n;
+	n = 4;
+
+	ft_strlcpy(b, a, n);
+
+	printf("%s\n", b);
+
 	return 0;
-}*/
+}

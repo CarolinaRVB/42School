@@ -1,45 +1,45 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
+/*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2i023/03/11 19:55:04 by crebelo-         #+#    #+#             */
-/*   Updated: 2023/03/11 20:35:42 by crebelo-         ###   ########.fr       */
+/*   Created: 2023/03/10 10:22:18 by crebelo-          #+#    #+#             */
+/*   Updated: 2023/03/11 20:02:16 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include<stdio.h>
+#include<stdio.h>
 
-int	ft_str_is_alpha(char *str)
+char	*ft_strcapitalize(char *str)
 {
 	int	i;
 
 	i = 0;
+	if ('a' <= str[0] && str[0] <= 'z')
+	{
+		str[0] = str[0] - 32;
+	}
 	while (str[i] != '\0')
 	{
-		if (('a' <= str[i] && str[i] <= 'z'))
+		if ('a' <= str[i] && str[i] <= 'z')
 		{
-			if (('A' <= str[i] && str[i] <= 'Z' || str[i] == ' '))
+			if (' ' <= str[i - 1] && str[i - 1] <= '/')
 			{
-				i++;
+				str[i] = str[i] - 32;
 			}
-			else
-			{
-				return (0);
-			}
+			i++;
 		}
-		i++;
 	}
-	return (1);
+	return str;
 }
-/*int	main()
-{
-	int	i;
-	char	str[10] = "eh# j#$gvg";
 
-	i = ft_str_is_alpha(str);
-	printf("%d", i);
+int     main()
+{
+	char    str[12] = "a ccr h+s dF";
+
+	ft_strcapitalize(str);
+        printf("%s\n", str);
 	return 0;
-}*/
+}
