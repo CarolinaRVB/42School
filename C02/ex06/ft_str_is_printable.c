@@ -10,32 +10,31 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-
-int     ft_str_is_printable(char *str)
+//#include<stdio.h>
+int	ft_str_is_printable(char *str)
 {
-        int     i;
-
-        i = 0;
-        while (str[i] != '\0')
-        {
-                if ((' ' <= str[i] && str[i] <= '~') || str[i] == ' ')
-                {
-                        str[i] = '1';
-                }
-                else
-                {
-                        str[i] = '0';
-                }
-                i++;
-        }
-        return *str;
+	int     i;
+	
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if ((' ' <= str[i] && str[i] <= '~') || str[i] == ' ')
+		{
+			i++;
+		}
+		else
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
 }
+/*int     main()
+{	
+	int	i;
+	char    str[12] = "eH# j#$923Vg";
 
-int     main()
-{
-        char    str[12] = "eH# j#$923Vg";
-
-        ft_str_is_printable(str);
-        printf("%s", str);
-}
+        i = ft_str_is_printable(str);
+        printf("%d", i);
+}*/

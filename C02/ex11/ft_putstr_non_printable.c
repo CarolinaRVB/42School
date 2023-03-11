@@ -10,49 +10,37 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
+#include <stdio.h>
 
-char	*ft_strlowcase(char *str)
+void ft_putchar(char c)
 {
-	int     i;
-
-        i = 0;
-        while (str[i] != '\0')
-        {
-                if ('A' <= str[i] && str[i] <= 'Z')
-                {
-                        str[i] = str[i] + 32;
-                }
-		i++;
-	}
-        return str;
+    write(1, &c, 1);
 }
 
-void	ft_putstr_non_printable(char *str);
-
+void ft_putstr_non_printable(char *str)
 {
-	int     i;
+    int i = 0;
 
-        i = 0;
-        while (str[i] != '\0')
+    while (str[i] != '\0')
+    {
+        if (str[i] < ' ' || str[i] > '~')
         {
-                if (' ' > str[i] && str[i] > '~')
-                {
-                        str[i] = str[i] ;
-                }
-		else
-                {
-                        str[i] = '0';
-                }
-                i++;
+            ft_putchar('\\');
+            ft_putchar("0123456789abcdef"[str[i] / 16]);
+            ft_putchar("0123456789abcdef"[str[i] % 16]);
         }
-        return *str;
+        else
+        {
+            ft_putchar(str[i]);
+        }
+        i++;
+    }
 }
-
-int     main()
+int	main()
 {
-        char    str[12] = "eH# j#$923Vg";
-
-        ft_str_is_printable(str);
-        printf("%s", str);
+	char	*str;
+	
+	str = "Ola\nesta bem?";
+	ft_putstr_non_printable(str);
 }

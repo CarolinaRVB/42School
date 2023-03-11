@@ -10,29 +10,26 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-
-char     *ft_strupcase(char *str)
+//#include<stdio.h>
+char	*ft_strupcase(char *str)
 {
-        int     i;
+	int	i;
 
-        i = 0;
-        while (str[i] != '\0')
-        {
-                if ('a' <= str[i] && str[i] <= 'z')
-                {
-                        str[i] = str[i] - 32;
-                }
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if ('a' <= str[i] && str[i] <= 'z')
+		{
+			str[i] = str[i] - 32;
+		}
 		i++;
 	}
-        return str;
 }
-
-int     main()
+/*int     main()
 {
 	char    str[12] = "abcdefghoijs";
 
 	ft_strupcase(str);
         printf("%s\n", str);
 	return 0;
-}
+}*/

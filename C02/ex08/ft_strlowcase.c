@@ -9,29 +9,28 @@
 /*   Updated: 2023/03/11 20:00:36 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
 
+//#include<stdio.h>
 char	*ft_strlowcase(char *str)
 {
 	int     i;
-
-        i = 0;
-        while (str[i] != '\0')
-        {
-                if ('A' <= str[i] && str[i] <= 'Z')
-                {
-                        str[i] = str[i] + 32;
-                }
+	
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if ('A' <= str[i] && str[i] <= 'Z')
+		{
+			str[i] = str[i] + 32;
+		}
 		i++;
 	}
-        return str;
+	return (str);
 }
-
-int     main()
+/*int     main()
 {
 	char    str[12] = "ABCDRGHSJDKF";
 
 	ft_strlowcase(str);
         printf("%s\n", str);
 	return 0;
-}
+}*/

@@ -10,12 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-
+//#include<stdio.h>
 char	*ft_strcapitalize(char *str)
 {
 	int	i;
-
+	
 	i = 0;
 	if ('a' <= str[0] && str[0] <= 'z')
 	{
@@ -29,17 +28,16 @@ char	*ft_strcapitalize(char *str)
 			{
 				str[i] = str[i] - 32;
 			}
-			i++;
 		}
+		i++;
 	}
 	return str;
 }
-
-int     main()
+/*int     main()
 {
 	char    str[12] = "a ccr h+s dF";
 
 	ft_strcapitalize(str);
         printf("%s\n", str);
 	return 0;
-}
+}*/

@@ -10,33 +10,33 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+//#include<stdio.h>
 
-int     ft_str_is_uppercase(char *str)
+int	ft_str_is_uppercase(char *str)
 {
-        int     i;
-
-        i = 0;
-        while (str[i] != '\0')
-        {
-                if (('A' <= str[i] && str[i] <= 'Z') || str[i] == ' ')
-                {
-                        i++;
-                }
-                else
-                {
-                        return 0;
-                }
+	int     i;
+	
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (('A' <= str[i] && str[i] <= 'Z') || str[i] == ' ')
+		{
+			i++;
+		}
+		else
+		{
+			return (0);
+		}
+		i++;
 	}
-        return 1;
+	return (1);
 }
-
-int     main()
+/*int     main()
 {
         int	i;
-	char    str[12] = "eH# j#$923Vg";
+	char    str[12] = "ABVDHDJDHJDH";
 
 	i = ft_str_is_uppercase(str);
         printf("%d", i);
 	return 0;
-}
+}*/

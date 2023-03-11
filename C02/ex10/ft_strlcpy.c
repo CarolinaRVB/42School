@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+//#include<stdio.h>
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
 	int	i;
@@ -21,11 +21,9 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 		dest[i] = src[i];
 		i++;
 	}
-	dest[size - 1] = '\0';
-	return *dest;
+	dest[size - 1] = '\0';	
 }
-
-int	main()
+/*int	main()
 {
 	char	a[] = "ololaolaa";
 	char	b[4];
@@ -37,4 +35,4 @@ int	main()
 	printf("%s\n", b);
 
 	return 0;
-}
+}*/
